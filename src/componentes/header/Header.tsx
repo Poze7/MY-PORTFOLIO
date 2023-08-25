@@ -2,9 +2,10 @@ import './Header.css';
 
 export default function Header() {
   return (
-    <body>
-    <header>
-      <img className='logo' src="img/barbie.png" />
+    <header className="portfolio-header">
+      <div className="logo-container">
+        <img className="logo" src="img/barbie.png" alt="Logo" />
+      </div>
       <nav className="navbar">
         <ul>
           <li>
@@ -22,6 +23,5 @@ export default function Header() {
         </ul>
       </nav>
     </header>
-</body>
   );
 }
