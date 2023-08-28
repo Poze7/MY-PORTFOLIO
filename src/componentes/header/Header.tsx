@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className="portfolio-header">
       <div>
-        <img className="logo" src="src/img/logo.png" alt="Logo" />
+        <img className="logo" src="public/img/logo.png" alt="Logo" />
       </div>
       <nav className="navbar">
         <ul>

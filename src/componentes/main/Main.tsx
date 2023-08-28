@@ -13,7 +13,7 @@ export default function Main() {
       </div>
 
   
-      <img src="src/img/main.png" alt="main" className='img2'></img>
+      <img src="public/img/main.png" alt="main" className='img2'></img>
     
 
     </div>

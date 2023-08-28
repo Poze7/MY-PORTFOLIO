@@ -21,9 +21,9 @@ export default function Footer() {
         <div className="footer-section">
           <h2>Redes Sociais</h2>
           <ul className="Redes">
-            <li><img src="src/img/whats.png" alt="WhatsApp" /></li>
-            <li><img src="src/img/insta.png" alt="Instagram" /></li>
-            <li><img src="src/img/face.png" alt="Facebook" /></li>
+            <li><img src="public/img/whats.png" alt="WhatsApp" /></li>
+            <li><img src="public/img/insta.png" alt="Instagram" /></li>
+            <li><img src="public/img/face.png" alt="Facebook" /></li>
           </ul>
         </div>
       </div>
