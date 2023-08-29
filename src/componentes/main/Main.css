@@ -1,8 +1,13 @@
+body{
+  background-color: rgb(209, 211, 212);
+}
+
 .main-container {
     display: flex;
     justify-content:space-between;
     margin-left: 100px ;
     margin-top: 130px;  
+    
 
   }
   
@@ -16,7 +21,12 @@
     font-size: 24px;
     font-family: 'Segoe UI', sans-serif;
     margin-bottom: 5px;
+    background: linear-gradient(45deg, rgb(115, 255, 0), rgb(0, 162, 255), rgb(3, 3, 221), green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: rainbow 10s linear infinite;
   }
+
   
   .main2-1, .main2-2, .main2-3 {
     font-size: 40px;
@@ -24,6 +34,10 @@
     font-weight: bold;
     color: #445964;
     margin: 0;
+    background: linear-gradient(45deg, red, rgb(21, 199, 5), rgb(0, 0, 255), rgb(0, 214, 214), rgb(35, 209, 0), rgb(5, 58, 204), rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: rainbow 10s linear infinite;
   }
   
   .main1-2 {
@@ -31,6 +45,10 @@
     font-size: 18px;
     font-family: 'Segoe UI', sans-serif;
     margin-top: 10px;
+    background: linear-gradient(45deg, rgb(0, 17, 255), rgb(225, 0, 255), rgb(221, 3, 76), rgb(160, 131, 0), rgb(0, 162, 255), rgb(0, 255, 0), rgb(255, 0, 234));
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: rainbow 10s linear infinite;
   }
   
   .main1-3 {
@@ -41,7 +59,20 @@
     border-radius: 40px;
     display: inline-block;
     margin-top: 5px;
+    background: linear-gradient(45deg,red, rgb(255, 0, 43), rgb(88, 218, 13),rgb(0, 183, 255), rgb(255, 0, 0), rgb(0, 47, 255));
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: rainbow 10s linear infinite;
+    
   }
+  @keyframes main {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
   .img2{
     position:relative;
     margin-top: -150px;

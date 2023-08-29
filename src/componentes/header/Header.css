@@ -1,21 +1,21 @@
 .portfolio-header {
-  background-color: darkcyan;
-  padding: 25px;
+  background-color: black;
+  padding: 5px;
   text-align: center;
   display: flex;
   justify-content: space-between;
   box-shadow: 0 0 10px rgb(57, 56, 56);
 }
 .logo {
-  width: 150px;
-  height: 55px;
+  width: 120px;
+  height: 120px;
  background-size: 100%;
  margin-left: 25px;
   
 }
 
 .navbar {
-  margin-top: 30px;
+  margin-top: 55px;
   text-align: right;
 }
 
@@ -27,8 +27,11 @@
 
 .navbar li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 20px; 
+  
 }
+
+
 
 .navbar a {
   color: #ffffff;
@@ -36,9 +39,10 @@
   font-size: 18px;
   padding: 8px 16px;
   border-radius: 40px;
-  background-color: #008080;
+  background-color:black ;
   border: 2px solid white;
   transition: background-color 0.3s, color 0.3s;
+  background: linear-gradient(45deg, rgb(0, 0, 255), rgb(35, 209, 0), rgb(255, 0, 0));
 }
 
 .navbar a:hover {

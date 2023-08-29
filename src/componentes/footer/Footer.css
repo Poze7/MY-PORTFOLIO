@@ -1,6 +1,6 @@
 
 .footer {
-   background-color:darkcyan ;
+   background-color:black;
    color: #fff;
    padding: 10px 0;
    position: fixed;
@@ -39,6 +39,7 @@
 
 .links li, .Redes li {
    margin-bottom: 5px;
+   
 }
 
 .links a {
