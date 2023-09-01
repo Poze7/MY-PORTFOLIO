@@ -36,17 +36,26 @@
 .navbar a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
+  font-family:monospace;
   padding: 8px 16px;
   border-radius: 40px;
-  background-color:black ;
   border: 2px solid white;
-  transition: background-color 0.3s, color 0.3s;
-  background: linear-gradient(45deg, rgb(0, 0, 255), rgb(35, 209, 0), rgb(255, 0, 0));
 }
 
+
 .navbar a:hover {
-  background-color: #ffffff;
-  color: #000000;
-  border: 2px solid black;
+  border: 3px  white ;
+  background: linear-gradient(45deg, red, rgb(255, 0, 43), rgb(88, 218, 13), rgb(0, 183, 255), rgb(255, 0, 0), rgb(0, 47, 255));
+  -webkit-background-clip: text;
+  color: transparent;
+
+}
+@keyframes rainbow1 {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
 }

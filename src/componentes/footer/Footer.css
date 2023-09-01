@@ -8,6 +8,7 @@
    left: 0;
    width: 100%;
    box-shadow: 0 0 10px rgb(57, 56, 56);
+   font-family:monospace;
 }
 
 .footer-content {
@@ -39,6 +40,7 @@
 
 .links li, .Redes li {
    margin-bottom: 5px;
+   
    
 }
 
