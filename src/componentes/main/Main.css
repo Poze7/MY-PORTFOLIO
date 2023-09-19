@@ -2,7 +2,6 @@ body {
   background-color: rgb(209, 211, 212);
 }
 
-
 .main-container {
   display: flex;
   justify-content: space-between;
@@ -68,77 +67,28 @@ body {
   margin-right: 200px;
 }
 /* Adicione estilos para a barra de pesquisa */
-.search-bar {
-  display: flex;
-  align-items: flex-start;
-  margin-top: -90px;
-  margin-left: -390px;
-}
 
-.barra {
-  flex-grow: 1;
-  padding: 10px;
-  border: 1px solid #ccc;
+.barrapesquisa{
+  height: 30px;
+  border: 1px solid #bebebe;
+  width: 200px;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1.4rem;
 }
-
-.pesquisa {
-  margin-left: 10px;
-  padding: 5px 15px;
-  background-color: #ffffff;
-  color: #000000;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 18px;
-  font-family: 'Segoe UI', sans-serif;
+.barrapesquisa:focus-visible{
+  outline: 1px solid rgba(28, 28, 191, 0.57);
 }
-
-.pesquisa:hover {
-  background: linear-gradient(45deg, red, rgb(255, 0, 43), rgb(88, 218, 13), rgb(0, 183, 255), rgb(255, 0, 0), rgb(0, 47, 255));
-  -webkit-background-clip: text;
-  color: transparent;
-  animation: rainbow4 10s linear infinite;
+.pesquisa{
+  padding: 50px;
 }
-
-.projetos {
-  margin-top: 200px;
-  flex-grow: 1; /* Faz a seção de projetos ocupar todo o espaço disponível */
+.content-main{
+  padding: 50px;
   display: flex;
-  flex-direction: column;
-  align-items: center; /* Centralize o conteúdo verticalmente */
-     /* Adicione margem superior para separar do conteúdo anterior */
-}
+  gap: 15px;
+  
 
-.projeto-h2 {
-  font-size: 24px;
-  font-family: 'Segoe UI', sans-serif;
-  margin-bottom: 20px;
-}
-
-.projeto-lista {
-  display: flex;
+  /* gap: 30px;
   flex-wrap: wrap;
-  gap: 20px;
+  justify-content: center; */
 }
-
-/* Estilos para os cartões de projeto */
-.projeto-card {
-  width: calc(33.33% - 20px); /* Distribui os projetos em 3 colunas */
-  padding: 20px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.projeto-card h3 {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.projeto-card p {
-  font-size: 16px;
-}
-
-
 
