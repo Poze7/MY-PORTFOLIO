@@ -1,10 +1,11 @@
 .portfolio-header {
   background-color: black;
-  padding: 5px;
+  padding: 20px;
   text-align: center;
   display: flex;
   justify-content: space-between;
   box-shadow: 0 0 10px rgb(57, 56, 56);
+  width: 100%;
 }
 .logo {
   width: 120px;

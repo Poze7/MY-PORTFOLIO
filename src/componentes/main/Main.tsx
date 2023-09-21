@@ -16,25 +16,31 @@ export default function Main() {
   const projetos: ProjetoType[] = [ // Atualize para "projetos" (com "s")
     {
       id: 1,
-      titulo: "Barbie",
-      sinopse: "Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
-      imagem: "/barbie.png"
+      titulo: "HATAKE ANIMES",
+      sinopse: "Esse foi um projeto que eu produzi em busca de aperfeiçoamento na site figma",
+      imagem: "/hatake.png"
     },
     {
       id: 2,
-      titulo: "Transformers Maiza",
-      sinopse: "Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
-      imagem: "/transformes.jpeg"
+      titulo: "BYTE INFORMATICA",
+      sinopse: "Esse foi um frame que eu criei na plataforma figma baseado na materia interface grafica da professora Tabata ",
+      imagem: "/byte.png"
     },
     {
       id: 3,
-      titulo: "Transformers ",
-      sinopse: "Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
-      imagem: "/transformes.jpeg"
+      titulo: "JIFS 2023",
+      sinopse: "Essa foi a minha primeira participação no JIFSMS em Dourados, infelizmente nao conseguimos o primeiro o lugar, ficamos com o segundo",
+      imagem: "/jifs.jpg"
+    },
+    {
+      id: 3,
+      titulo: "INTERCLASSE 2023",
+      sinopse: "",
+      imagem: "/jifs.jpg"
     }
   ];
+  
 
-  // A função recebe um atributo chamado e de "event"
   function mudaTexto(e: React.ChangeEvent<HTMLInputElement>) {
     console.log(e.target.value)
     setTexto(e.target.value)
@@ -49,20 +55,25 @@ export default function Main() {
         <h2 className="main2-3"> Campus de Naviraí</h2>
         <h1 className="main1-2">Seja bem-vindo ao meu portfólio</h1>
         <button className="main1-3">Me conheça melhor</button>
+        
       </div>
 
-      <img src="main.png" alt="main" className="img2" />
+      <img src="main.gif" alt="main" className="img2" />
+
+    
+
       <div className="pesquisa">
                 
-                <p>Buscar Filme</p>
+                <p>Buscar Projetos</p>
                 <input className='barrapesquisa' type="text" onChange={mudaTexto} />
                 <div>
                     <p className='texto_digitado'></p>
                 </div>
             </div>
+    
             <main className="content-main">
         {projetos.filter((projeto) => projeto.titulo.toLowerCase().includes(texto.toLowerCase())).map((projeto) => (
-          <Projeto // Use o componente correto aqui
+          <Projeto
             key={projeto.id}
             titulo={projeto.titulo}
             sinopse={projeto.sinopse}

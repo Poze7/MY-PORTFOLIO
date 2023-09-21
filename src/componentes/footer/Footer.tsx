@@ -4,6 +4,9 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
+        <div>
+        <img className="logoF" src="logo.png" alt="Logo" />
+        </div>
         <div className="footer-section">
           <h2>Contato</h2>
           <p className='p'>Entre em contato conosco para mais informações:</p>
@@ -21,9 +24,9 @@ export default function Footer() {
         <div className="footer-section">
           <h2>Redes Sociais</h2>
           <ul className="Redes">
-            <li><img src="whats.png" alt="WhatsApp" /></li>
-            <li><img src="insta.png" alt="Instagram" /></li>
-            <li><img src="face.png" alt="Facebook" /></li>
+            <li><a href='#'><img src="whats.png" alt="WhatsApp" /></a></li>
+            <li><a href='#'><img src="insta.png" alt="WhatsApp" /></a></li>
+            <li><a href='#'><img src="face.png" alt="WhatsApp" /></a></li>
           </ul>
         </div>
       </div>

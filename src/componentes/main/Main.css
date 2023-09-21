@@ -1,21 +1,25 @@
 body {
   background-color: rgb(209, 211, 212);
+  
 }
 
 .main-container {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 100px;
-  margin-top: 130px;
+ display: grid;
+ justify-content: baseline;
+  margin-left: 250px;
+  margin-top: 450px;
+  
 }
 
 .content-container {
   text-align: left;
-  margin-left: 40px;
+  margin-left: -100px;
+  margin-top: -330px;
+
 }
 
 .main1-1 {
-  font-size: 24px;
+  font-size: 34px;
   font-family: 'Segoe UI', sans-serif;
   margin-bottom: 5px;
   background: linear-gradient(45deg, rgb(115, 255, 0), rgb(0, 162, 255), rgb(3, 3, 221), green, yellow, orange, red);
@@ -27,7 +31,7 @@ body {
 .main2-1,
 .main2-2,
 .main2-3 {
-  font-size: 40px;
+  font-size: 50px;
   font-family: 'Segoe UI', sans-serif;
   font-weight: bold;
   margin: 0;
@@ -38,7 +42,7 @@ body {
 }
 
 .main1-2 {
-  font-size: 18px;
+  font-size: 24px;
   font-family: 'Segoe UI', sans-serif;
   margin-top: 10px;
   background: linear-gradient(45deg, rgb(0, 17, 255), rgb(225, 0, 255), rgb(221, 3, 76), rgb(160, 131, 0), rgb(0, 162, 255), rgb(0, 255, 0), rgb(255, 0, 234));
@@ -51,7 +55,7 @@ body {
   border: 2px solid black;
   padding: 10px 40px;
   border-radius: 40px;
-  font-size: 19px;
+  font-size: 25px;
   font-family:monospace;
   background: linear-gradient(45deg, red, rgb(255, 0, 43), rgb(88, 218, 13), rgb(0, 183, 255), rgb(255, 0, 0), rgb(0, 47, 255));
   -webkit-background-clip: text;
@@ -62,33 +66,43 @@ body {
 .img2 {
   position: relative;
   margin-top: 10px;
-  width: 550px;
-  height: 350px;
-  margin-right: 200px;
+  width: 700px;
+  height: 550px;
+  margin-left: 677px;
+  margin-top: -420px;
 }
 /* Adicione estilos para a barra de pesquisa */
 
 .barrapesquisa{
   height: 30px;
-  border: 1px solid #bebebe;
-  width: 200px;
-  border-radius: 5px;
+  border: 1.5px solid #000000;
+  width: 390px;
+  border-radius: 25px;
   font-size: 1.4rem;
+  padding: 5px;
+  outline: none;
+  margin-top: -40px;
+  
 }
-.barrapesquisa:focus-visible{
-  outline: 1px solid rgba(28, 28, 191, 0.57);
+.barrapesquisa:focus{
+  border-color: rgb(255, 255, 255) ;
+  box-shadow: black;
 }
 .pesquisa{
-  padding: 50px;
+  padding: 100px;
+  margin-top: -54px;
+  margin-left: 380px;
+  font-family:monospace;
+  font-size: 20px;
 }
-.content-main{
+.content-main {
   padding: 50px;
-  display: flex;
-  gap: 15px;
-  
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+}
 
-  /* gap: 30px;
-  flex-wrap: wrap;
-  justify-content: center; */
-}
+
 
