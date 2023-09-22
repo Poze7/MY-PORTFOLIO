@@ -6,6 +6,7 @@
   justify-content: center;
   background-color: white;
   border-radius: 25px;
+  font-family:monospace;
 }
 .foto_projeto{
   min-height: 350px;
@@ -15,7 +16,9 @@
 }
 .foto_projeto>img{
   width: 100%;
+
 }
 .sinopse{
   text-align: justify;
+  font-size: 18px;
 }

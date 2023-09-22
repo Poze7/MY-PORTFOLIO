@@ -13,30 +13,30 @@ export default function Main() {
   // Hook
   const [texto, setTexto] = useState("");
 
-  const projetos: ProjetoType[] = [ // Atualize para "projetos" (com "s")
+  const projetos: ProjetoType[] = [
     {
       id: 1,
       titulo: "HATAKE ANIMES",
-      sinopse: "Esse foi um projeto que eu produzi em busca de aperfeiçoamento na site figma",
+      sinopse: "Esse foi um projeto que eu produzi em busca de aperfeiçoamento no site Figma",
       imagem: "/hatake.png"
     },
     {
       id: 2,
       titulo: "BYTE INFORMATICA",
-      sinopse: "Esse foi um frame que eu criei na plataforma figma baseado na materia interface grafica da professora Tabata ",
+      sinopse: "Esse foi um frame que eu criei na plataforma Figma, baseado na matéria de Interface Gráfica da professora Tabata",
       imagem: "/byte.png"
     },
     {
       id: 3,
       titulo: "JIFS 2023",
-      sinopse: "Essa foi a minha primeira participação no JIFSMS em Dourados, infelizmente nao conseguimos o primeiro o lugar, ficamos com o segundo",
+      sinopse: "Essa foi a minha primeira participação nos JIFSMS em Dourados. Infelizmente, não conseguimos o primeiro lugar e ficamos com o segundo.",
       imagem: "/jifs.jpg"
     },
     {
-      id: 3,
-      titulo: "INTERCLASSE 2023",
-      sinopse: "",
-      imagem: "/jifs.jpg"
+      id: 4,
+      titulo: "INTERCUSO 2023",
+      sinopse: "Essa foi a minha última participação no intercurso do IFNV, encerrando como campeão do IFESTIFMOV",
+      imagem: "/inter.jpg"
     }
   ];
   
@@ -67,7 +67,7 @@ export default function Main() {
                 <p>Buscar Projetos</p>
                 <input className='barrapesquisa' type="text" onChange={mudaTexto} />
                 <div>
-                    <p className='texto_digitado'></p>
+                    <p className='texto_digitado'>  </p>
                 </div>
             </div>
     
