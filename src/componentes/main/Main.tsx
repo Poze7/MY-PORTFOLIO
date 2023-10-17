@@ -71,7 +71,7 @@ export default function Main() {
                 </div>
             </div>
     
-            <main className="content-main">
+            <main className="content-main1">
         {projetos.filter((projeto) => projeto.titulo.toLowerCase().includes(texto.toLowerCase())).map((projeto) => (
           <Projeto
             key={projeto.id}

@@ -103,7 +103,7 @@ body {
   color: transparent;
   animation: rainbow4 10s linear infinite;
 }
-.content-main {
+.content-main1 {
   padding: 50px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -113,9 +113,5 @@ body {
     margin-left: -235px;
     
 }
-.content-container {
-  
-}
-
 
 
