@@ -3,6 +3,7 @@ import './main.css'
 import Header from './componentes/header/Header'
 import Footer from './componentes/footer/Footer'
 import Main from './componentes/main/Main'
+import Contato from './componentes/contato/Contato.tsx'
 import * as ReactDOM from "react-dom/client";
 
 import {
@@ -46,21 +47,7 @@ const router = createBrowserRouter([
     element: (
       <>
         <Header />
-        <div className="content-main">
-          <form className="contact-form">
-
-            <label htmlFor="name">Nome:</label>
-            <input type="text1" id="name" name="name" />
-
-            <label htmlFor="email">Email:</label>
-            <input type="email" id="email" name="email" />
-
-            <label htmlFor="message">Mensagem:</label>
-            <textarea id="message" name="message"></textarea>
-            
-            <button type="submit">Enviar</button>
-          </form>
-        </div>
+        <Contato/>
         <Footer />
       </>
     ),

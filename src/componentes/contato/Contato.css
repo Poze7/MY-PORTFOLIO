@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: monospace;
+}
+
+.content-main2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.contact-form {
+  background-color: #000;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  text-align: center;
+  max-width: 400px;
+
+  border: 2px solid white;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="message"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #333;
+  color: white;
+}
+
+textarea {
+  height: 150px;
+}
+
+button[type="submit"] {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 8px 16px;
+  border-radius: 40px;
+  border: 2px solid white;
+  cursor: pointer;
+  background-color: black;
+  transition: all 0.3s;
+  font-family: monospace;
+}
+
+button[type="submit"]:hover {
+  border: 3px solid rgb(0, 0, 0);
+  background: linear-gradient(45deg, red, rgb(255, 0, 43), rgb(88, 218, 13), rgb(0, 183, 255), rgb(255, 0, 0), rgb(0, 47, 255));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.response {
+  margin-top: 20px;
+  text-align: center;
+}
